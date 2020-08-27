@@ -7,6 +7,6 @@
 
 基于 Make 的 ndk-build。
 
-CMake。需要了解[Cmake配置]<https://developer.android.com/studio/projects/configure-cmake>
+CMake。需要了解[Cmake配置](https://developer.android.com/studio/projects/configure-cmake)
 
 独立工具链，用于与其他构建系统集成，或与基于 configure 的项目搭配使用。
