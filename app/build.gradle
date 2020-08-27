@@ -16,7 +16,16 @@ android {
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         externalNativeBuild {
             cmake {
+                // 指定C编译器的标志。
+                cFlags ""
+                // 指定C ++编译器的标志。
                 cppFlags ""
+                // 指定Gradle应该为其生成输出的应用程序二进制接口（ABI）。Gradle打包到您的APK中的ABI取决于NdkOptions.abiFilter()
+                abiFilters "arm64-v8a", "armeabi-v7a"
+
+                arguments "-ANDROID_ABI=armeabi-v7a"
+                // 从CMake项目中指定Gradle应该构建的库和可执行目标
+                //targets ""
             }
         }
     }

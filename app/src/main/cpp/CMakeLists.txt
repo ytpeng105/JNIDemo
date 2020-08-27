@@ -10,7 +10,7 @@ cmake_minimum_required(VERSION 3.4.1)
 # You can define multiple libraries, and CMake builds them for you.
 # Gradle automatically packages shared libraries with your APK.
 
-add_library( # Sets the name of the library.
+add_library( # Sets the name of the library. //这里要写上我们要生成的so文件名称，要与MainActivity.java里的名称对应
              native-lib
 
              # Sets the library as a shared library.
