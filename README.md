@@ -13,4 +13,13 @@ CMake。需要了解[Cmake配置](https://developer.android.com/studio/projects/
 
 # 其他参考资料
 1、[好人翻译的中文版Cmake手册](https://www.zybuluo.com/khan-lau/note/254724)
+
 2、[Cmake英文手册](https://cmake.org/cmake/help/latest/manual/cmake-commands.7.html)
+
+  1)、cmake_minimum_required
+  
+  2)、add_library
+  
+  3)、find_library
+  
+  4)、target_link_libraries
