@@ -10,3 +10,7 @@
 CMake。需要了解[Cmake配置](https://developer.android.com/studio/projects/configure-cmake),以及[Cmake指南](https://developer.android.com/ndk/guides/cmake#variables)
 
 独立工具链，用于与其他构建系统集成，或与基于 configure 的项目搭配使用。
+
+# 其他参考资料
+1、[好人翻译的中文版Cmake手册](https://www.zybuluo.com/khan-lau/note/254724)
+2、[Cmake英文手册](https://cmake.org/cmake/help/latest/manual/cmake-commands.7.html)
